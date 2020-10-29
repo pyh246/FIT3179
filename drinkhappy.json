@@ -37,10 +37,22 @@
         ],
         "name": "Region Selection: "
       }
+    },
+    {
+      "name": "Wine_consumed_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 350,
+        "step": 10,
+        "name": "Minimum wine consumed: "
+      }
     }
   ],
   "transform": [
-    {"filter": "Region_selection == null || datum.Region == Region_selection"}
+    {"filter": "Region_selection == null || datum.Region == Region_selection"},
+    {"filter": "datum.Wine_PerCapita > Wine_consumed_Above"}
   ],
   "encoding": {
     "x": {
