@@ -17,8 +17,8 @@
     "theta": {"field": "alcohol consumed per day  per captia", "type": "quantitative"},
     "color": {"field": "Region", "type": "nominal"},
      "tooltip": [
-      {"field": "Region", "type": "ordinal", "title": "Field A"},
-      {"field": "alcohol consumed per day  per captia", "type": "quantitative", "title": "Field B"}]
+      {"field": "Region", "type": "ordinal", "title": "Region"},
+      {"field": "alcohol consumed per day  per captia", "type": "quantitative", "title": "alcohol consumed per day  per captia"}]
   },
   
   "view": {"stroke": null},
