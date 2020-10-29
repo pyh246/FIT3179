@@ -5,7 +5,7 @@
     "url": "https://pyh246.github.io/FIT3179/HappinessAlcoholConsumption.csv"
   },
    "title": "HappinessScore for country",
-  "width": 200,
+  "width": 400,
   "height": 200,
   "mark": "bar",
   "encoding": {
