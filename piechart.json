@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A simple donut chart with embedded data.",
-  
+  "width": 200,
+  "height": 200,
   "data": {
     "values": [
       {"Region": "Western Europe", "alcohol consumed per day  per captia": 172},
