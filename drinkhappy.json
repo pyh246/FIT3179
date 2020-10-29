@@ -114,7 +114,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country']=='China' || datum['Country'] == 'Australia' ||  datum['Country'] == 'France'",
+            "test": "datum['Country']=='China' || datum['Country'] == 'Australia' ||  datum['Country'] == 'France' ||  datum['Country'] == 'Russian Federation' ",
             "value": 1
           },
           "value": 0
