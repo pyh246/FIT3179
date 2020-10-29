@@ -91,7 +91,7 @@
     {
       "mark": {
         "type": "text",
-        "align": "right",
+        "align": "left",
         "baseline": "middle",
         "dx": -12,
         "fontSize": 11.5,
@@ -102,7 +102,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country']=='China' || datum['Country'] == 'Australia' ||  datum['Country'] == 'United States'",
+            "test": "datum['Country']=='China' || datum['Country'] == 'Australia' ||  datum['Country'] == 'United States' ||  datum['Country'] == 'France'",
             "value": 1
           },
           "value": 0
