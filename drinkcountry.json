@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "alchol consumed for country",
+  "width": 400,
+  "height": 300,
+  "projection": {"type": "equirectangular"},
+  "data": {
+    "url": "https://pyh246.github.io/FIT3179/topo_hw1.topojson",
+    "format": {"type": "topojson", "feature": "hw1"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {"url": "https://pyh246.github.io/FIT3179/drinksbycountry.csv"},
+        "key": "country",
+        "fields": ["total_litres_of_pure_alcohol"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "total_litres_of_pure_alcohol",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [1, 5, 10],
+        "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "country"},
+      {"field": "total_litres_of_pure_alcohol", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
