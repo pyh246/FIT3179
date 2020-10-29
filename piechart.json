@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple donut chart with embedded data.",
+  "data": {
+    "values": [
+      {"Region": "Western Europe", "value": 172},
+      {"Region": "Sub-Saharan Africa", "value": 37},
+      {"Region": "Middle East and Northern Africa", "value": 26},
+      {"Region": "Latin America and Caribbean", "value": 102},
+      {"Region": "Eastern Asia", "value": 84},
+      {"Region": "Central and Eastern Europe", "value": 144}
+    ]
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative"},
+    "color": {"field": "Region", "type": "nominal"}
+  },
+  "view": {"stroke": null},
+  "config": {}
+}
