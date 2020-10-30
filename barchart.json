@@ -4,7 +4,7 @@
   "data": {
     "url": "https://pyh246.github.io/FIT3179/HappinessAlcoholConsumption.csv"
   },
-   "title": "HappinessScore for country",
+   "title": "Happiness Score for country",
   "width": 400,
   "height": 200,
   "mark": "bar",
@@ -13,8 +13,13 @@
     "x": {
       "aggregate": "average",
       "field": "HappinessScore",
-      "title": "HappinessScore"
+      "title": "Happiness Score"
     }
+    ,
+    "tooltip": [
+      {"field": "Region", "type": "nominal"},
+      {"field": "HappinessScore", "type": "quantitative","aggregate": "average"}
+    ]
   },
   "config": {}
 }
