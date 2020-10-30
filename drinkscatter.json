@@ -37,7 +37,7 @@
       "color": {
         "condition": {
           "selection": "brush",
-          "field": "Origin",
+          "field": "Region",
           "type": "nominal"
         },
         "value": "grey"
