@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "repeat": {
-    "row": ["Wine_PerCapita", "HappinessScore", "Beer_PerCapita"],
-    "column": ["Beer_PerCapita", "HappinessScore", "Wine_PerCapita"]
+    "row": ["Wine_PerCapita", "HappinessScore","Spirit_PerCapita"],
+    "column": ["Spirit_PerCapita", "HappinessScore", "Wine_PerCapita"]
   },
   "spec": {
     "data": {
