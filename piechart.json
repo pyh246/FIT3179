@@ -11,7 +11,8 @@
       {"Region": "Latin America and Caribbean", "alcohol consumed per day  per captia": 102},
       {"Region": "Eastern Asia", "alcohol consumed per day  per captia": 84},
       {"Region": "Australia and New Zealand", "alcohol consumed per day  per captia": 167},
-      {"Region": "Central and Eastern Europe", "alcohol consumed per day  per captia": 144}
+      {"Region": "Central and Eastern Europe", "alcohol consumed per day  per captia": 144},
+      {"Region": "Southeastern Asia", "alcohol consumed per day  per captia": 62}
     ]
   },
   "mark": {"type": "arc", "innerRadius": 50},
