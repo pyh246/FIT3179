@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "alchol consumed for country",
+  "title": "Pure alcohol consumption for countries",
   "width": 400,
   "height": 300,
   "projection": {"type": "equirectangular"},
